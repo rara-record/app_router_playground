@@ -6,12 +6,15 @@ export default function Page() {
       <h1 className="text-xl font-bold">Layouts</h1>
 
       <ul>
+        <li>레이아웃은 여러 페이지 간에 공유되는 UI입니다.</li>
         <li>
-          A layout is UI that is shared between multiple pages. On
-          navigation, layouts preserve state, remain interactive, and
-          do not re-render. Two or more layouts can also be nested.
+          페이지 네비게이션 시, 레이아웃은 상태를 유지하고, 상호작용이
+          가능한 상태를 유지하며, 리렌더링되지 않습니다. 또한, 두 개
+          이상의 레이아웃을 중첩해서 사용할 수 있습니다
         </li>
-        <li>Try navigating between categories and sub categories.</li>
+        <li>
+          카테고리와 서브 카테고리 간 네비게이션을 시도해 보세요.
+        </li>
       </ul>
 
       <div className="flex gap-2">
