@@ -19,11 +19,11 @@ export default function Page() {
           </li>
           <li>
             Parallel Routes는{' '}
-            <a href="https://nextjs.org/docs/app/building-your-application/routing/parallel-routes#conditional-routes">
+            <a href="https://nextjs-ko.org/docs/app/building-your-application/routing/parallel-routes#conditional-routes">
               Conditional Routes (조건부 라우트)
             </a>{' '}
             and{' '}
-            <a href="https://nextjs.org/docs/app/building-your-application/routing/intercepting-routes">
+            <a href="https://nextjs-ko.org/docs/app/building-your-application/routing/intercepting-routes">
               Intercepted Routes (가로챈 라우트)
             </a>
             와 같은 고급 라우팅 패턴에 사용될 수도 있습니다.
@@ -46,11 +46,10 @@ export default function Page() {
           </li>
         </ul>
         <div className="flex gap-2">
-          <ExternalLink href="https://nextjs.org/docs/app/building-your-application/routing/parallel-routes">
+          <ExternalLink href="https://nextjs-ko.org/docs/app/building-your-application/routing/parallel-routes">
             Docs
           </ExternalLink>
-
-          <ExternalLink href="https://github.com/vercel/app-playground/tree/main/app/parallel-routes">
+          <ExternalLink href="https://github.com/rara-record/app_router_playground/tree/main/app/parallel-routes">
             Code
           </ExternalLink>
         </div>

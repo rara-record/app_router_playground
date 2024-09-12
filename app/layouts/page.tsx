@@ -18,10 +18,10 @@ export default function Page() {
       </ul>
 
       <div className="flex gap-2">
-        <ExternalLink href="https://nextjs.org/docs/app/building-your-application/routing/pages-and-layouts">
+        <ExternalLink href="https://nextjs-ko.org/docs/app/building-your-application/routing/pages">
           Docs
         </ExternalLink>
-        <ExternalLink href="https://github.com/vercel/app-playground/tree/main/app/layouts">
+        <ExternalLink href="https://github.com/rara-record/app_router_playground/tree/main/app/layouts">
           Code
         </ExternalLink>
       </div>
