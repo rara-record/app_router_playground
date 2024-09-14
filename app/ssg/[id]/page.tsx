@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 // https://nextjs-ko.org/docs/app/api-reference/functions/generate-static-params
 export async function generateStaticParams() {
   // 빌드시 두 페이지를 생성하고 나머지 페이지 (3~100개)는 온디맨드 방식으로 생성합니다.
-
   return [{ id: '1' }, { id: '2' }];
 }
 
