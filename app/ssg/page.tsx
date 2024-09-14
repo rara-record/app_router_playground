@@ -24,10 +24,10 @@ export default function Page() {
       </ul>
 
       <div className="flex gap-2">
-        <ExternalLink href="https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#static-data-fetching">
+        <ExternalLink href="https://nextjs-ko.org/docs/app/building-your-application/data-fetching/fetching">
           Docs
         </ExternalLink>
-        <ExternalLink href="https://github.com/vercel/app-playground/tree/main/app/ssg">
+        <ExternalLink href="https://github.com/rara-record/app_router_playground/tree/main/app/ssg">
           Code
         </ExternalLink>
       </div>
