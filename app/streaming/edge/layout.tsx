@@ -5,7 +5,7 @@ import { CartCountProvider } from '#/app/streaming/_component/cart-count-context
 import { Header } from '#/app/streaming/_component/header';
 
 export const metadata = {
-  title: 'Streaming (Node Runtime)',
+  title: 'Streaming (Edge Runtime)',
 };
 
 export default function Layout({

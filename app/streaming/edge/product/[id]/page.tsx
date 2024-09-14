@@ -29,7 +29,7 @@ export default async function Page({
 
       <Suspense fallback={<RecommendedProductsSkeleton />}>
         <RecommendedProducts
-          path="/streaming/node/product"
+          path="/streaming/edge/product"
           data={fetch(
             // We intentionally delay the response to simulate a slow data
             // request that would benefit from streaming
