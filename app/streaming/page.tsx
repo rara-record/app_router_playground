@@ -27,10 +27,10 @@ export default async function Page() {
       </ul>
 
       <div className="flex gap-2">
-        <ExternalLink href="https://nextjs.org/docs/app/building-your-application/routing/loading-ui-and-streaming">
+        <ExternalLink href="https://nextjs.org/docs/app/building-your-application/data-fetching/fetching#static-data-fetching">
           Docs
         </ExternalLink>
-        <ExternalLink href="https://github.com/vercel/app-playground/tree/main/app/streaming">
+        <ExternalLink href="https://github.com/rara-record/app_router_playground/tree/main/app/streaming">
           Code
         </ExternalLink>
       </div>
